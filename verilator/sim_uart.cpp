@@ -34,7 +34,7 @@ int main()
         uart->clk ^= 1;
         step_and_dump_wave(contextp, tfp, uart);
 
-        if (contextp->time() > 100000)
+        if (contextp->time() > 200000)
             break;
     }
 

@@ -26,7 +26,6 @@ int main()
     core->clk = 0;
     core->rst = 1;
     step_and_dump_wave(contextp, tfp, core);
-    core->rst = 0;
 
     uint32_t cnt = 0;
     while (!contextp->gotFinish())

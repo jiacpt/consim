@@ -1,0 +1,12 @@
+-d C:\Users\leo\Desktop\consim\fpga\gowin_tang_nano_20k\impl\gwsynthesis\nano_20k.vg
+-p GW2AR-18C-QFN88P-8
+-pn GW2AR-LV18QN88PC8/I7
+-cst C:\Users\leo\Desktop\consim\fpga\gowin_tang_nano_20k\src\uart.cst
+-cfg C:\Users\leo\Desktop\consim\fpga\gowin_tang_nano_20k\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

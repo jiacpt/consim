@@ -11,8 +11,6 @@ add_definitions(-DVL_NO_LEGACY)
 find_package(verilator REQUIRED)
 
 
-
-
 #========================================================#
 # CCache                                                 #
 #========================================================#
@@ -28,5 +26,7 @@ endif(CCACHE_FOUND)
 #========================================================#
 add_subdirectory(verilator)
 add_subdirectory(fpga)
+
+
 
 

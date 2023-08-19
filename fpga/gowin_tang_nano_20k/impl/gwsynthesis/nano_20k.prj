@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2AR-18C" package="QFN88P" speed="8" partNumber="GW2AR-LV18QN88PC8/I7"/>
+    <FileList>
+        <File path="C:\Users\leo\Desktop\consim\rtl\perip\uart_rx.v" type="verilog"/>
+        <File path="C:\Users\leo\Desktop\consim\rtl\perip\uart_top.v" type="verilog"/>
+        <File path="C:\Users\leo\Desktop\consim\rtl\perip\uart_tx.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\leo\Desktop\consim\fpga\gowin_tang_nano_20k\impl\gwsynthesis\nano_20k.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
